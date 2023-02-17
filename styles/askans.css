@@ -1,0 +1,276 @@
+#h2{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	font-family: 'B Paatch';
+	width: 60%;
+}
+.content{
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #2F78AA;
+	color: white;
+	top: 15%;
+	text-align: center;
+	right: 1%;
+	box-shadow: 0 5px 20px #111;
+}
+.content1{
+	position: absolute;
+	width: 82%;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #2F78AA;
+	color: white;
+	text-align: center;
+	right: 1%;
+	top: 27%;
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 0 5px 20px #111;
+}
+.content2{
+	position: absolute;
+	width: 82%;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #2F78AA;
+	color: white;
+	text-align: center;
+	right: 1%;
+	top: 39%;
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 0 5px 20px #111;
+}.content3{
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #2F78AA;
+	color: white;
+	text-align: center;
+	right: 1%;
+	top: 51%;
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 0 5px 20px #111;
+}.content4{
+	position: absolute;
+	width: 60%;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #2F78AA;
+	color: white;
+	text-align: center;
+	right: 1%;
+	top: 63%;
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 0 5px 20px #111;
+}.content5{
+	position: absolute;
+	width: 82%;
+	height: 50px;
+	border-radius: 50px;
+	background-color: #2F78AA;
+	color: white;
+	text-align: center;
+	right: 1%;
+	top: 75%;
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 0 5px 20px #111;
+}
+.content1 .answer{
+	width: 110%;
+}.content2 .answer{
+	width: 110%;
+}.content3 .answer{
+	width: 130%;
+}.content4 .answer{
+	width: 130%;
+}.content5 .answer{
+	width: 110%;
+}
+.pq{
+	position: absolute;
+	right: 3%;
+	bottom: 35%;
+	color: #CEEBFF;
+	font-family: "B Kodak";
+	font-weight: bold;
+}
+.num{
+	position: absolute;
+	right: 3%;
+	top: 35.5%;
+}
+.ques{
+	position: absolute;
+	right: 5%;
+	font-family: "B Traffic";
+	font-size: 20px;
+	top: -14%;
+}
+.content.active .answer{
+	opacity: 1;
+}
+.day #h2{
+	color: white;
+}
+.toggle{
+	position: absolute;
+	transform: translate(-50%, -70%) rotate(405deg);
+	left: 5%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	cursor: pointer;
+	transition: 2s;
+}
+.toggle1{
+	position: absolute;
+	transform: translate(-50%, -70%) rotate(405deg);
+	left: 4%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	cursor: pointer;
+	transition: 2s;
+	z-index: 2;
+}.toggle2{
+	position: absolute;
+	transform: translate(-50%, -70%) rotate(405deg);
+	left: 5%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	cursor: pointer;
+	transition: 2s;
+	z-index: 2;
+}.toggle3{
+	position: absolute;
+	transform: translate(-50%, -70%) rotate(405deg);
+	left: 5%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	cursor: pointer;
+	transition: 2s;
+	z-index: 2;
+}.toggle4{
+	position: absolute;
+	transform: translate(-50%, -70%) rotate(405deg);
+	left: 5%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	cursor: pointer;
+	transition: 2s;
+	z-index: 2;
+}.toggle5{
+	position: absolute;
+	transform: translate(-50%, -70%) rotate(405deg);
+	left: 5%;
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	cursor: pointer;
+	transition: 2s;
+	z-index: 2;
+}
+.content.active .toggle{
+	transform: translate(-50%, -70%) translateY(7px) rotate(225deg);
+	border-bottom: 3px solid #00FFE3;
+	border-right: 3px solid #00FFE3;
+}
+.content1.active .toggle1{
+	transform: translate(-50%, -70%) translateY(7px) rotate(225deg);
+	border-bottom: 3px solid #00FFE3;
+	border-right: 3px solid #00FFE3;
+}.content2.active .toggle2{
+	transform: translate(-50%, -70%) translateY(7px) rotate(225deg);
+	border-bottom: 3px solid #00FFE3;
+	border-right: 3px solid #00FFE3;
+}.content3.active .toggle3{
+	transform: translate(-50%, -70%) translateY(7px) rotate(225deg);
+	border-bottom: 3px solid #00FFE3;
+	border-right: 3px solid #00FFE3;
+}.content4.active .toggle4{
+	transform: translate(-50%, -70%) translateY(7px) rotate(225deg);
+	border-bottom: 3px solid #00FFE3;
+	border-right: 3px solid #00FFE3;
+}.content5.active .toggle5{
+	transform: translate(-50%, -70%) translateY(7px) rotate(225deg);
+	border-bottom: 3px solid #00FFE3;
+	border-right: 3px solid #00FFE3;
+}
+.content1.active .answer{
+	opacity: 1;
+}.content2.active .answer{
+	opacity: 1;
+}.content3.active .answer{
+	opacity: 1;
+}.content4.active .answer{
+	opacity: 1;
+}.content5.active .answer{
+	opacity: 1;
+}
+.answer{
+	position: absolute;
+	top: 100%;
+	background-color: wheat;
+	border-radius: 35px;
+	right: 10%;
+	color: black;
+	width: 145%;
+	opacity: 0;
+	transition: 2s;
+	z-index: 1;
+	box-shadow: 0 10px 30px #111;
+}
+.answer .pq{
+	position: absolute;
+	bottom: 40%;
+	color: #FF6E00;
+}
+.content .answer .pq{
+	bottom: 50%;
+}
+.ans{
+	font-family: "B Nazanin";
+	font-weight: 300;
+}
+.b1{
+	bottom: 5%;
+	left: 5%;
+}
+#ld{
+	top: 1.5%;
+}
+#d2{
+	position: absolute;
+	top: -50%;
+	left: 3%;
+}
+#db{
+	position: absolute;
+	bottom: 5%;
+	width: 30%;
+	left: 5%;
+}
