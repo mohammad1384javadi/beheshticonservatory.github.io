@@ -1,0 +1,497 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	min-height: 400vh; 
+	direction: rtl;
+}
+.main{
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	min-height: 400vh; 
+	left: 50%;
+	transform: translate(-50%);
+	width: 97%;
+	box-shadow: 0 0 20px 10px silver;
+	border-radius: 50px;
+	overflow: hidden;
+}
+header{
+	display: inline-block;
+	position: relative;
+	right: 50%;
+	transform: translate(50%);
+	height: 138px;
+	width: 96%;
+	top: 1%;
+	background: #019BDC;
+	border-radius: 35px;
+	box-shadow: 0 0 20px 10px silver;
+}
+.btn{
+	position: absolute;
+	background: transparent;
+	font-family: "B Nazanin";
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.8s;
+	color: #fff;
+	right: 30%;
+	top: 10%;
+	width: 10%;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+}
+.btn:hover{
+	color: #000000;
+}
+.text{
+	position: absolute;
+	top: -2%;
+	font-family: "IranNastaliq";
+	color: white;
+	background-color: transparent;
+	right: 15%;
+	height: 18%;
+	font-size: 35px; 
+}
+.text.t1{
+	position: absolute;
+	top: -8%;
+	right: 50%;
+	transform: translate(25%);
+	font-size: 45px;
+	text-shadow: 0 10px 7px #fff;
+}
+.imgh{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	left: 5%;
+	top: 1%;
+	box-shadow: 0 0 20px #fff;
+}
+.nav{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	width: 90%;
+	height: 20%;
+	transform: translate(-50%);
+	display: inline-block;
+	animation: slide-in ease-out;
+	box-shadow: rgba(0,0,0,0.2) 0px 60px 40px -7px;
+	padding-right: 100px;
+	background-color: none;
+}
+.btnnav{
+	position: absolute;
+	width: 15%;
+	top: 90px;
+	background-color: transparent;
+	font-family: "B Nazanin";
+	border: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 1.5s;
+	border-radius: 35px;
+	text-decoration: none;
+	text-align: center;
+}
+.btnnav:hover{
+	background-color: #00497A;
+	box-shadow: 0 0 10px #fff;
+	color: #B7E2FF;
+}
+.bn1{
+	right: 3%;
+}
+.bn2{
+	right: 15%;
+}
+.bn3{
+	right: 30%;
+}
+.bn4{
+	right: 45%;
+}
+.bn5{
+	right: 58%;
+}
+.bn6{
+	right: 72%;
+}
+.bn7{
+	right: 84%;
+}
+.abouting{
+	position: absolute;
+	width: 18%;
+	height: 30%;
+	top: 100%;
+	left: 15%;
+	background-color: #246692;
+	opacity: 0;
+}
+.about.act .abouting{
+	opacity: 1;
+}
+#footer .e4{
+	top: 60%;
+}
+#footer #loc{
+	position: absolute;
+	bottom: 8%;
+	font-family: "B Titr";
+	color: white;
+	right: 10%;
+}
+#imgf{
+	position: absolute;
+	bottom: 3%;
+	left: 5%;
+	width: 150px;
+	height: 150px;
+	border-radius: 80px;
+	opacity: 0.7;
+	box-shadow: -10px 10px 10px #111;
+}
+.im1{
+	width: 80px;
+	right: 5%;
+	box-shadow: 0 0 20px #fff;
+}
+.lab{
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	font-family: "B Morvarid";
+	color: white;
+}
+#img{
+	position: absolute;
+	left: 30%;
+	top: 1%;
+	border-radius: 15px;
+	width: 180px;
+	height: 70px;
+	box-shadow: -5px 10px 20px #fff;
+}
+#un{
+	position: absolute;
+	left: 8%;
+	top: 10%;
+	width: 20%;
+	height: 22px;
+	border-radius: 20px;
+	text-align-last: center;
+	font-family: "B Titr";
+}
+#hr{
+	position: absolute;
+	border: 1.5px solid #fff;
+	width: 94.8%;
+	height: 2px;
+	border-left: none;
+	border-right: none;
+	right: 5%;
+	transform: translate(2%);
+	top: 50%;
+}
+.hr, .hr2{
+	position: absolute;
+	top: 1.5%;
+	right: 50%;
+	transform: translate(50%);
+	border: 2px solid #06FFA6;
+	width: 23%;
+	background-color: none;
+	border-left: none;
+	border-right: none;
+}
+.h{
+	top: 36.5%;
+	width: 40%;
+}
+
+.hr2{
+	top: 2%;
+	border: 2px solid #1D567C;
+	width: 18%;
+}
+.h2{
+	width: 25.7%;
+	top: 37%;
+}
+.txt{
+	position: absolute;
+	top: 0%;
+	right: 50%;
+	transform: translate(50%);
+	font-family: "B Morvarid";
+	font-size: 30px;
+}
+.t1{
+	color: black;
+	width: 300px;
+	top: 35%;
+}
+.para, .p{
+	position: absolute;
+	font-family: "B Nazanin";
+	top: 3%;
+	right: 2%;
+	font-size: 20px;
+}
+.p3{
+	top: 1.8%;
+}
+.p{
+	top: 12%;
+}
+.pa2{
+	top: 38%;
+}
+.btnfield, .hr3, .btnoffic{
+	position: absolute;
+	top: 8%;
+	right: 50%;
+	transform: translate(50%);
+	background-color: white;
+	color: #0088E4;
+	font-family: "tahoma";
+	font-weight: bold;
+	border-radius: 20px;
+	width: 150px;
+	height: 1%;
+	transition: 0.8s;
+	z-index: 2;
+	cursor: pointer;
+}
+.hr3{
+	height: 0;
+	top: 8.2%;
+	width: 90%;
+	border-style: dashed;
+	z-index: 0;
+}
+.hr4{
+	top: 75.2%;
+}
+.btnoffic{
+	top: 75%;
+}
+.btnfield:hover{
+	background-color: #0088E4;
+	color: white;
+}
+.person{
+	position: absolute;
+	top: 18%;
+	right: 3%;
+	width: 25%;
+	height: 350px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 23px;
+}
+.person img{
+	position: absolute;
+	right: 50%;
+	transform: translate(50%);
+	width: 60%;
+	box-shadow: 0 0 15px #fff;
+	height: 60%;
+	border-radius: 50%;
+}
+.person .name{
+	position: absolute;
+	right: 10%;
+	top: 57%;
+/*	transform: translate(35%);*/
+	font-family: "IranNastaliq";
+	font-size: 28px;
+	width: 100%;
+}
+.person .con{
+	position: absolute;
+	right: 50%;
+	transform: translate(50%);
+	top: 70%;
+	font-size: 20px;
+	font-family: "B Titr";
+	text-align: center;
+}
+.imgman{
+	position: absolute;
+	top: 57%;
+	right: 4%;
+	width: 38%;
+	height: 450px;
+	border-radius: 50px;
+	box-shadow: -15px 20px 10px #111;
+}
+.m1{
+	right: 50%;
+}
+.p1{
+	right: 40%;
+}
+.p1 .con{
+	font-size: 15px;
+}
+.p2{
+	right: 77%;
+}
+.pa1{
+	top: 31%;
+}
+table{
+	position: absolute;
+	top: 43%;
+	right: 50%;
+	transform: translate(50%);
+	border: 3px solid #0028AB;
+	border-radius: 20px;
+	align-items: center;
+	cursor: pointer;
+}
+tbody{
+	border:#0AFBFF;
+}
+td{
+	transition: 1s;
+}
+td:hover{
+	border: 3px solid black;
+	color: white;
+	background-color: #004631;
+}
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	border-radius: 30px;
+	bottom: 0%;
+	background-color: #00406B;
+}
+.btnschool{
+	top: 77%;
+	right: 75%;
+	width: 175px;
+}
+.bt1{
+	right: 30%;
+}
+.btnschool:hover{
+	border: 2px solid white;
+	box-shadow: 0 0 10px #111;
+}
+.elem{
+	position: absolute;
+	font-family: "IranNastaliq";
+	font-size: 40px;
+	right: 10%;
+	top: 5%;
+	color: white;
+}
+.e1{
+	right: 60%;
+}
+.hfo{
+	position: absolute;
+	top: 11.9%;
+	width: 200px;
+	border: 1px solid #fff;
+	border-style: dashed;
+}
+.hf{
+	right: 210px;
+}
+.hf1{
+	right: 65%;
+}
+#footer a{
+	position: absolute;
+	top: 21%;
+	right: 12%;
+	text-decoration: none;
+	color: #fff;
+	font-family: "B Titr";
+	transition: 2s;
+}
+#footer a:hover{
+	color: aqua;
+}
+#footer .pada{
+	top: 33%;
+}
+#footer .sida{
+	top: 45%;
+}
+#footer .inf{
+	right: 65%;
+}
+#footer .inf1{
+	right: 65%;
+	top: 33%;
+}
+#footer .info2{
+	right: 65%;
+}
+#footer .contact{
+	top: 68%;
+	right: 47%;
+	transform: translate(50%);
+}
+.e2{
+	right: 37%;
+	top: 55%;
+}
+.hf2{
+	width: 21%;
+	right: 42%;
+	top: 61%;
+}
+	/*
+.pn, .pn1{
+	position: absolute;
+	right: 39%;
+	color: white;
+	font-family: "B Titr";
+}	
+.pn{
+	top: 50%;
+	transform: translate(0 , 180%);
+}
+.pn1{
+	top: 68%;
+}
+.hpn, .hpn1{
+	position: absolute;
+	top: 65.5%;
+	right: 43%;
+	border: 1px solid #fff;
+	border-style: dotted;
+	width: 10%;
+}
+.hpn1{
+	top: 75.7%;
+	right: 44.5%;
+	width: 8.5%;
+}
+.number, .number1{
+	position: absolute;
+	right: 54%;
+	color: #fff;
+}
+.number{
+	top: 61%;
+}
+.number1{
+	top: 71.8%;
+}*/
