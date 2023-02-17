@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>ورود به سایت هنرستان بهشتی</title>
+	<link href="../styles/main.css" rel="stylesheet">
+	<script type="text/javascript" async src="../scripts/btns.js"></script>
+		<link rel="stylesheet" href="../styles/darklight.css">
+		<link rel="stylesheet" href="../styles/stylebtnhover.css">
+		<script type="text/javascript" async src="../scripts/btnback.js"></script>
+	
+	</head>
+
+	<body dir="rtl" id="body">
+		<div class="main m1">
+			<div><p id="p2">ثبت نام</p><span id="s1">/</span><p id="p1">ورود</p></div>
+			<input type="text" id="suberes">
+			<form>
+				<label id="ln">نام:</label>
+				<input type="text" id="txtname" placeholder="نام خود را وارد کنید">
+				<label id="lf">نام خانوادگی:</label>
+				<input type="text" id="txtfamily" placeholder="نام خانوادگی خود را وارد کنید">
+				<label id="lr">نقش:</label>
+				<select class="role" id="r">
+					<option id="man">مدیر</option>
+					<option id="std">هنرجو</option>
+				</select>
+				<input type="button" class="btnf btnsub" value="ثبت نام" onClick="sub()">
+				<input type="button" class="btnf btnlogedin" value="ورود" onClick="login()">
+				<input type="button" class="btnf btnnewstd" value="هنرجویان تازه ورود" onClick="newstd()">
+			</form>
+			<div class="container">
+				<div id="db" style="position: absolute; bottom: 5%;width: 40%; right: 10%;"><button class="btn b1" onClick="homepage()">بازگشت به صفحه اصلی</button></div>
+			</div>
+		</div>
+	</body>
+</html>
