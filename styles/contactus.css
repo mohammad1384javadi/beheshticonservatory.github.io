@@ -1,0 +1,153 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	direction: rtl;
+	background-image: url("../images/door.jpg");
+	background-position: center;
+}
+.m3{
+	display: inline-block;
+	position: absolute;
+	top: 3%;
+	height: 94%;
+	width: 70%;
+	border-radius: 30px;
+	box-shadow: 0 0 10px 10px #C9C9C9;
+	background-color: white;
+	left: 50%;
+	transform: translate(-50%);
+}
+.relway{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	box-shadow: 0 0 10px #0073e6;
+	right: 1%;
+	top: 5%;
+}
+#h3{
+	position: absolute;
+	font-family: "B Nazanin";
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 60%;
+	color: #0099FF;
+}
+.lblcon{
+	position: absolute;
+	font-family: "B Mitra";
+	right: 5%;
+	top: 30%;
+	color: #515050;
+	font-size: 18px;
+}
+.l1{
+	top: 50%;
+}
+.l2{
+	top: 70%;
+}
+.ln, .ln1, .ln2{
+	right: 35%;
+	color: #298370;
+}
+#formc{
+	position: absolute;
+	top: 33%;
+	left: 50%;
+	padding: 0px 20px;
+	transform: translate(-50%);
+	font-family: "B Mitra";
+	color: #0073e6;
+	font-size: 20px;
+	background-color: white;
+	z-index: 2;
+	width: 100px;
+}
+#hr{
+	position: absolute;
+	top: 34%;
+	width: 98%;
+	border: 1px solid darkgray;
+	border-style: dashed;
+	right: 50%;
+	transform: translate(50%);
+	z-index: 0;
+}
+.lblform{
+	position: absolute;
+	right: 5%;
+	top: 45%;
+	font-family: "B Roya";
+	color: darkgray;
+}
+.lf1{
+	top: 55%;
+}
+.lf2{
+	top: 65%;
+}
+.lf3{
+	top: 75%;
+}
+.lf4{
+	right: 50%;
+}
+.txtform{
+	right: 4.5%;
+	border-radius: 10px;
+	border: 2px solid gray;
+	border-top: 2px solid black;
+	top: 50%;
+	width: 250px;
+	height: 22px;
+}
+.txtform:hover{
+	border: 2px solid #3498db;
+	border-top: none;
+}
+.tf1{
+	top: 60%;
+}
+.tf2{
+	top: 70%;
+}
+.tf3{
+	top: 80%;
+}
+.tf4{
+	position: absolute;
+	height: 220px;
+	width: 300px;
+	right: 50%;
+	top: 49.5%;
+}
+.btnsendm{
+	position: absolute;
+	right: 50%;
+	transform: translate(50%);
+	bottom: 5%;
+	border-radius: 15px;
+	width: 80px;
+	height: 30px;
+	font-family: "B Nazanin";
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.btnsendm:hover{
+	background-color: #3498db;
+	font-weight: bold;
+	border-color: #00538C;
+	box-shadow: 0 0 10px #111;
+}
+h1{
+	position: absolute;
+	left: 12%;
+	top: -2%;
+	font-size: 60px;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
