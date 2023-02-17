@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap");
+*
+{
+	font-family: sens-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+.card
+{
+	display: inline-block;
+	position: relative;
+	width: 350px;
+	height: 85px;
+	top: -300px;
+	background: #398cc0;
+	border-radius: 20px;
+	filter: drop-shadow(-20px 20px 40px #398cc055);
+	transition: 0.5s ease-in-out;
+	margin: 2px;
+}
+.card.active{
+	top: -130px;
+	height: 435px;
+	z-index: 5;
+}
+.toggle{
+	position: absolute;
+	bottom: -60px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70px;
+	height: 60px;
+	background: #398cc0;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	cursor: pointer;
+}
+.toggle::before{
+	content: '';
+	position: absolute;
+	left: -34px;
+	width: 35px;
+	height: 35px;
+	background: transparent;
+	border-top-right-radius: 35px;
+	box-shadow: 11px -10px 0 10px #398cc0;
+}
+.toggle::after{
+	content: '';
+	position: absolute;
+	right: -34px;
+	width: 35px;
+	height: 35px;
+	background: transparent;
+	border-top-left-radius: 35px;
+	box-shadow: -11px -10px 0 10px #398cc0;
+}
+.toggle span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -70%) rotate(405deg);
+	width: 10px;
+	height: 10px;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	transition: 0.5s ease-in-out;
+}
+.card.active .toggle span{
+	transform: translate(-50%, -70%) rotate(225deg);
+}
+.contentbx{
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+}
+.contentbx .content{
+	position: relative;
+	padding: 20px;
+	text-align: center;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contentbx .content h2{
+	color: #fff;
+	font-weight: 500;
+	font-size: 1.3em;
+	line-height: 1.1em;
+	position: relative;
+	bottom: 10px;
+}
+.contentbx .content h2 span{
+	font-size: 0.75em;
+	font-weight: 400;
+	text-transform: initial;
+}
+.imgbx{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	background: #fff;
+	margin-top: 20px;
+	box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.15);
+	border: 5px solid #fff;
+}
+.imgbx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content button{
+	position: relative;
+	margin-top: 20px;
+	padding: 10px 35px;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+	color: #333;
+	box-shadow: -10px 10px 10px rgb(0, 0, 0, 0.15);
+}
+#f1{
+	position: relative;
+	top: -100px;
+}
+#tf1, .tf1{
+	background: #000000;
+}
+#f2{
+	position: relative;
+	top: 10px;
+}
+#f3{
+	position: relative;
+	top: 70px;
+	left: 110px;
+}
+#f4{
+	position: relative;
+	right: 115px;
+	background: #000000;
+	filter: drop-shadow(-20px 20px 40px #000000);
+}
+#f5{
+	position: relative;
+	top: 10px;
+}
+#f6{
+	position: relative;
+	top: -100px;
+}
+#f4 .toggle::before{
+	box-shadow: 11px -10px 0 10px #000000;
+}
+#f4 .toggle::after{
+	box-shadow: -11px -10px 0 10px #000000;
+}
+.p{
+	position: absolute;
+	top: 30px;
+	font-size: 30px;
+	left: 70%;
+	line-height: 1.2em;
+	overflow: hidden;
+	transition: 3s;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+.p:hover{
+	cursor: pointer;
+	color: #000000;
+	text-shadow: 0 -1.2em #1095c1, 0 0 #1095c1;
+}
+.btn{
+	border: 1px solid #3498db;
+	background: none;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+	color: #3498db;
+	border-radius: 35px;
+}
+.btn:hover{
+	color: #fff;
+}
+.btn::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0%;background: #3498db;
+	z-index: -1;
+	transition: 0.8s;
+	top: 0;
+	border-radius: 0 0 50% 50%;
+}
+.btn:hover::before{
+	height: 180%;
+}
+.b1{
+	position: absolute;
+	width: 180px;
+	height: 40px;
+	bottom: 60px;
+	left: 55px;
+} 	
+.btnli{
+	position: absolute;
+	top: -47%;
+	left: 3%;
+	background-color: #000000;
+	height: 30px;
+	width: 60px;
+	border-radius: 100px;
+	margin-top: 370px;
+	cursor: pointer;
+	transition: all 0.5s;
+	z-index: 2;
+}
+.btnli::before{
+	content: '';
+	display: block;
+	width: 26px;
+	height: 26px;
+	background: white;
+	margin: 2px;
+	border-radius: 100px;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+#ld{
+	position: absolute;
+	right: 86%;
+	bottom: 89.5%;
+	z-index: 1;
+	font-family: "B Nazanin";
+	font-size: 25px;
+}
+.box{
+	width: 200px;
+	height: 60px;
+	border-radius: 40px;
+	background: none;
+	border: 3px solid black;
+	position: absolute;
+	bottom: 87%;
+	left: 2%;
+	box-shadow: 0  10px 10px #000;
+}
+.day .box{
+	box-shadow: -10px -10px 10px #fff;
+	border: 3px solid #fff;
+}
