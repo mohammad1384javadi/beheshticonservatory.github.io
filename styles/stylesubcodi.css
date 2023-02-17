@@ -1,0 +1,78 @@
+.main{
+	display: inline-block;
+	position: absolute;
+	top: 3%;
+	height: 115%;
+	left: 3%;
+	width: 94%;
+	box-shadow: 0 0 20px 20px #001AB3;
+}
+.m2{
+	width: 90%;
+	border-radius: 30px;
+	box-shadow: 0 0 10px 10px #C9C9C9;
+}
+h3{
+	font-family: "B Mitra";
+	font-size: 16.5px;
+}
+#d{
+	position: absolute;
+	top: 35%;
+	left: 6%;
+	transform: rotate(-30deg);
+}
+#p2{
+	font-family:"B Titr";
+	font-size: 30px;
+	position: absolute;
+	left:20%;
+	color: white;
+	top: 0;
+	margin-top:40px;
+	text-shadow: 0 0 5px #111, 0 0 10px #111, 0 0 15px #111, 0 0 20px #111, 0 0 25px #111, 0 0 12px #111, 0 0 10px #111;
+}
+.spase{
+	position: absolute;
+	margin-right:20px;
+}
+.top{
+	margin-bottom:25px;
+	}
+.color{
+	color:#1A27B8;
+}
+.line
+{
+	text-align:center;
+	display:inline;
+	margin-left:300px;
+	margin-top:100px;
+	font-family: "B Titr";
+}
+.shadow{
+	border: 2px solid #111;
+	text-shadow:1px 1px 1px #2503FF;
+	box-shadow:0px 6px 10px black;
+	font-family: "B Titr";
+	border-radius: 20px;
+}
+.day .shadow{
+	border: 2px solid #12FF00;
+}
+.back
+{
+	width:80%;
+	height:15%;
+	margin-right:100px;
+	border-radius: 30px;
+}
+.shadowdown
+{
+	text-align:center;
+	text-shadow:1px 1px 1px black;
+}
+.margin
+{
+	margin:10px 20px 50px 120px;
+}
